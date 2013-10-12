@@ -755,6 +755,6 @@ int main()
 	
 	CUDA( cudaFreeHost(h_idata) );
 	CUDA( cudaFree(d_idata) );
-
+	system("pause");
 	return 0;
 }
